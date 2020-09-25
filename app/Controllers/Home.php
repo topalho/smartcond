@@ -4,8 +4,8 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('welcome_message');
-		$this->load->view('templates/');
+		return view('view_login');
+		$this->load->view('/');
 	}
 	public function administradoras()
 	{
